@@ -8,15 +8,38 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1 id="main-title">Odin Recipes</h1>
-  <img src="./Images/chef-logo.png" alt="chef-logo" id="chef-logo">
+  <header class="header">
+    <h1 id="main-title">Odin Recipes</h1>
+  </header>
   <!-- <img src="https://i.pinimg.com/originals/7a/88/b2/7a88b279dafb4481549b9feafc1a5f7e.gif" alt="chika approves"> -->
-
-  <h1 id="chef-title">Chef's Asian-Inspired Recipes</h1>
-  <ul>
+  <div class="chef-container">
+    <img src="./Images/chef-logo-removebg-preview.png" alt="chef-logo" id="chef-logo">
+    <h1 id="chef-title" class="chef-title">Chef's Asian-Inspired Recipes</h1>
+  </div>
+  <!-- <ul>
     <li><a href="">Bulgogi Beef (Korean-Style Barbecue)</a></li>
     <li><a href="">Beef Rendang</a></li>
     <li><a href="">Corned Beef Kimchi Fried Rice</a></li>
-  </ul>
+  </ul> -->
+  <div class="container">
+    <div class="food">
+      <label>
+        <img src="./Images/bulgogi-beef.webp" alt="" class="food-image">
+        Bulgogi Beef (Korean-Style Barbecue)
+      </label>
+    </div>
+    <div class="food">
+      <label>
+        <img src="./Images/beef-rendang.webp" alt="" class="food-image">
+        Beef Rendang
+      </label>
+    </div>
+    <div class="food">
+      <label>
+        <img src="Images/kimchi-friedrice.webp" alt="" class="food-image">
+        Corned Beef Kimchi Fried Rice
+      </label>
+    </div>
+  </div>
 </body>
 </html>
