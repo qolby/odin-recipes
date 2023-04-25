@@ -76,3 +76,27 @@ img[id="chef-logo"] {
   text-align: center;
   /* border: 2px solid black; */
 }
+
+.harold {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-end; */
+  max-width: 230px;
+  margin: 20px;
+  margin-left: auto;
+  padding: 10px;
+  /* border: 5px solid black; */
+}
+
+.harold img {
+  max-width: 200px;
+  object-fit: cover;
+  border: 5px solid #FAEAB1;
+  border-radius: 16px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.harold-text {
+  margin-left: auto;
+}
