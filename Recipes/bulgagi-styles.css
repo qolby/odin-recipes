@@ -7,6 +7,7 @@ body {
   margin: 0;
   background-color: #F4EBD0;
   color: #000;
+  font-size: 18px;
 }
 
 .header {
@@ -18,7 +19,7 @@ body {
   border-bottom: 5px solid #B68D40;
 }
 
-.bulgagi-image {
+.title-image {
   width: 100%;
   max-width: 600px;
   height: 400px;
@@ -26,7 +27,7 @@ body {
   margin: 0;
 }
 
-.bulgagi-title-container {
+.title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +39,40 @@ body {
   text-align: center;
 }
 
-.bulgagi-title {
-  margin: 10px;
+.title {
+  margin: 10px 0 0;
   /* border-bottom: 2px solid black; */
+}
+
+.description {
+  font-size: 16px;
+}
+
+.main-container {
+  width: 80%;
+  height: 100%;
+  background-color: #FAEAB1;
+  margin: 0 auto;
+  border: 5px solid #122620;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.ingredients {
+  /* border: 2px solid #000; */
+  padding: 0 20px;
+}
+
+.ingredients h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.ingredients li {
+  margin: 8px;
+}
+
+hr {
+  border: 2.5px solid #122620;
+  border-radius: 16px;
 }
