@@ -18,6 +18,12 @@ body {
   border-bottom: 5px solid #B68D40;
 }
 
+.header a {
+  text-decoration: none;
+  color: #FAEAB1;
+}
+
+
 img[id="chef-logo"] {
   width: 100%;
   max-width: 200px;
